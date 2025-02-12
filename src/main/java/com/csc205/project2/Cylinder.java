@@ -46,7 +46,7 @@ public class Cylinder {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Cylinder{");
+        final StringBuilder sb = new StringBuilder("Cylinder {");
         sb.append("height=").append(height);
         sb.append(", radius=").append(radius);
         sb.append(", surface area=").append(surfaceArea());

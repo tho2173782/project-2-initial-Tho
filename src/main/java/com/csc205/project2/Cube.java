@@ -35,7 +35,7 @@ public class Cube implements ThreeDimensionalShape {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Cube{");
+        final StringBuilder sb = new StringBuilder("Cube {");
         sb.append("width=").append(width);
         sb.append(", surface area=").append(surfaceArea());
         sb.append(", volume=").append(volume());

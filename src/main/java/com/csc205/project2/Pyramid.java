@@ -44,7 +44,7 @@ public class Pyramid {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Pyramid{");
+        final StringBuilder sb = new StringBuilder("Pyramid {");
         sb.append("width=").append(width);
         sb.append(", height=").append(height);
         sb.append(", surface area=").append(surfaceArea());
