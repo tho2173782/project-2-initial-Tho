@@ -7,7 +7,7 @@ public class Cube implements ThreeDimensionalShape {
 
     public Cube(){
         super();
-        Shape.shape("Cube");
+        this.width = 0.0;
     }
 
     public Cube(double width){
